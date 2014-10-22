@@ -1,0 +1,3 @@
+Color: Black Pearl, Hue: Blue, Hex_Value: #151c22
+Color: Blue Bayoux, Hue: Blue, Hex_Value: #586B79
+Color: Supernova, Hue: Yellow, Hex_Value: #fcb538

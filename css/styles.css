@@ -1,0 +1,64 @@
+*{
+	box-sizing:border-box;margin: 0;padding: 0;
+}
+body{
+	background:#fff;
+	color:#163540;
+	font-family: deibi;
+
+}
+h1{
+	text-align: center;
+}
+form#colorsInputForm{
+	width: 60%;
+	margin:20px auto 30px;
+	border:5px solid white;
+	background:#163540;
+}
+
+form ul li{
+	list-style-type: none;
+	color:white;
+	font-family: deibi;
+	font-weight: bold;
+	margin:5px 0px 5px 10px;
+	display: block;
+	width:50%;
+	margin:10px auto;
+}
+ul li label{
+	display:block;
+}
+input[type=text]{
+	width: 90%;
+}
+ul li input[type=submit]{
+	padding:5px 7px;
+	border:none;
+	outline:none;
+	box-shadow: 1px 1px 5px rgba(0,0,0,.8);
+	border-radius: 5px;
+
+}
+
+figure{
+	display: inline-block;
+}
+figcaption{
+	font-family:lato;
+	color:#2A3239;
+	font-size: 1em;
+}
+.errorMessage p{
+	color:red;
+	font-style:italic;
+	font-family: helvetica;
+	text-indent: 10px;
+	display: none;
+}
+#duplicateMessageDisplay h2{
+	text-align: center;
+	color:red;
+	display: none;
+}
